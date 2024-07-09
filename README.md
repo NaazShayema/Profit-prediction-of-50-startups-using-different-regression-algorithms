@@ -10,10 +10,15 @@ Objective: Developed a machine learning model to accurately predict the future p
 Dataset: exposys_50_Startups.csv 
 
 
-Files: Exposys Data Labs.ipynb contains the code for data importing, data preprocessing, data splitting, model training and model evaluation.
+File: Exposys Data Labs.ipynb contains the code for data importing, data preprocessing, data splitting, model training and model evaluation.
 
 
 Experimental results and analysis:
+-Linear Regression performed well, with high R-squared values indicating a good fit on both training and test sets. The test set R-squared of 0.96 suggests strong predictive capability
+-Decision Tree Regression showed overfitting, with perfect performance on the training set (R-squared: 1.0) but lower performance on the test set (R-squared: 0.87)
+-Random Forest Regression achieved high R-squared values for both training (0.99) and test sets (0.96), indicating excellent predictive performance with minimal overfitting
+-Overall, Random Forest Regression provided the best balance of fit and generalization, followed closely by Linear Regression. Decision Tree Regression overfitted the training data, resulting in lower predictive accuracy on the test set
+
 
 
 
