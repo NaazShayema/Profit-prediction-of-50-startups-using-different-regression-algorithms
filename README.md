@@ -7,7 +7,13 @@ Abstract:A company should always set a goal that should be achievable, otherwise
 Objective: Developed a machine learning model to accurately predict the future profit of start-up businesses based on historical data, including research and development spend, administration costs, marketing spend, and state of operation, to aid in setting realistic goals and optimizing development strategies for improved decision-making by both administration and stakeholders.
 
 
+Dataset: exposys_50_Startups.csv 
 
+
+Files: Exposys Data Labs.ipynb contains the code for data importing, data preprocessing, data splitting, model training and model evaluation.
+
+
+Experimental results and analysis:
 
 
 
